@@ -1,0 +1,9 @@
+OK  a_whitening_vs_pyriemann_invsqrtm                1.134e-07
+OK  b_EA_vs_TLCenter_euclid_covariances              2.554e-14
+OK  b_EA_aligned_second_moment_minus_I               4.066e-09
+OK  c_CORAL_official_vs_shrink0.5_over_sqrt2 (unbiased cov: tr/d = n/(n-1)) 2.850e-04
+OK  c_CORAL_vs_shrink0.5_over_sqrt2 (population cov, exact algebra) 8.114e-08
+OK  d_window_mean_max_abs_err                        1.121e-07
+OK  d_window_cov_max_abs_err                         8.305e-07
+OK  d_causal_mean_gpu_vs_pandas                      0.000e+00
+OK  e_cmvn_vs_numpy                                  1.768e-07

@@ -1,0 +1,54 @@
+u,p,start,end,length,pre_marker_offset,kinds,interior,clean_driver
+1,1,500,800,301,288.0,late_start,[],True
+1,12,3466,3522,57,318.0,late_start,[],True
+2,2,1048,1110,63,285.0,late_start,[],False
+2,6,2214,2752,539,,no_preceding_marker,[],False
+4,1,1,630,630,,no_preceding_marker,[],False
+4,6,1645,2143,499,119.0,interior_marker,"[(1817, 1836)]",False
+6,12,5520,6909,1390,17.0,interior_marker,"[(6033, 6042), (6440, 6449), (6867, 6878)]",False
+6,19,8424,8594,171,,no_preceding_marker,[],False
+8,1,2060,2544,485,30.0,interior_marker,"[(2493, 2506)]",False
+8,2,2555,2951,397,49.0,interior_marker,"[(2739, 2753)]",False
+8,3,2977,3360,384,224.0,interior_marker+late_start,"[(3267, 3279)]",False
+8,6,4202,4771,570,360.0,interior_marker+late_start,"[(4309, 4317)]",False
+8,8,5117,5681,565,315.0,interior_marker+late_start,"[(5464, 5477)]",False
+8,9,5707,5952,246,230.0,late_start,[],False
+8,10,5971,6342,372,,no_preceding_marker,[],False
+8,11,6352,6769,418,332.0,interior_marker+late_start,"[(6550, 6566)]",False
+8,12,6804,7366,563,238.0,interior_marker+late_start,"[(7198, 7211)]",False
+8,13,7373,7811,439,162.0,interior_marker,"[(7520, 7536)]",False
+8,14,7823,8300,478,287.0,interior_marker+late_start,"[(7884, 7895)]",False
+8,15,8307,8763,457,,interior_marker+no_preceding_marker,"[(8606, 8616)]",False
+8,16,8776,9139,364,160.0,interior_marker,"[(8892, 8899)]",False
+8,17,9158,9492,335,259.0,late_start,[],False
+8,18,9500,9895,396,,no_preceding_marker,[],False
+8,19,9917,10167,251,,no_preceding_marker,[],False
+8,20,10186,10563,378,,no_preceding_marker,[],False
+9,20,10382,10552,171,213.0,late_start,[],True
+10,3,1508,1588,81,,no_preceding_marker,[],True
+13,11,4920,5027,108,262.0,late_start,[],True
+13,15,6813,7036,224,221.0,late_start,[],True
+13,16,7306,7417,112,241.0,late_start,[],True
+14,1,493,850,358,,no_preceding_marker,[],True
+14,13,4337,4582,246,,no_preceding_marker,[],True
+15,1,1,337,337,,no_preceding_marker,[],True
+16,1,1057,1430,374,,interior_marker+no_preceding_marker,"[(1122, 1130)]",True
+20,1,970,1234,265,,no_preceding_marker,[],True
+20,5,2170,2197,28,330.0,late_start,[],True
+20,6,2205,2481,277,365.0,late_start,[],True
+21,12,3742,3788,47,,no_preceding_marker,[],True
+22,1,912,1928,1017,,interior_marker+no_preceding_marker,"[(1079, 1089)]",False
+22,11,5380,5496,117,255.0,late_start,[],False
+22,16,7100,7229,130,251.0,late_start,[],False
+22,18,7966,8257,292,208.0,late_start,[],False
+23,1,1940,2287,348,,no_preceding_marker,[],True
+23,8,4900,5284,385,298.0,late_start,[],True
+24,20,7385,7966,582,195.0,interior_marker,"[(7654, 7664), (7827, 7836)]",False
+25,1,653,1000,348,,no_preceding_marker,[],True
+27,16,9000,9355,356,272.0,late_start,[],True
+28,11,4800,5950,1151,73.0,interior_marker,"[(5106, 5116), (5506, 5513)]",False
+28,17,7300,7491,192,260.0,late_start,[],False
+29,11,5200,5419,220,290.0,late_start,[],True
+30,1,746,1000,255,,interior_marker+no_preceding_marker,"[(913, 921)]",True
+30,7,2798,3193,396,97.0,interior_marker,"[(3013, 3020)]",True
+30,15,6180,6521,342,,no_preceding_marker,[],True

@@ -1,0 +1,12 @@
+key,value,note,p,null_mean,ci_lo,ci_hi,uniform,within2,within2_uniform
+A.drivers_in_protocol_order_raw,28.0,"of 30; deviating: [3, 24]",,,,,,,
+A.drivers_in_protocol_order_repaired,29.0,of 30; deviating: [3],,,,,,,
+E.driver3_delta,-0.929,template score; p under protocol order = 0.007,,,,,,,
+B.load_profile_range_pct,10.800000190734863,max-min of the mean driver-normalised total load over the 20 slots,,,,,,,
+B.load_trend_rho_median,-0.117,"median per-driver Spearman(slot, load); Wilcoxon p = 0.424",0.42448854446411133,,,,,,
+C.smooth_R2_degree1,42.7,"% of between-slot variance; permutation null mean 5.3%, p = 0.0002; bootstrap 95% CI [36.4, 47.4]",0.0001999600079984003,5.3,36.4,47.4,,,
+C.smooth_R2_degree2,44.8,"% of between-slot variance; permutation null mean 7.7%, p = 0.0004; bootstrap 95% CI [38.1, 50.0]",0.0003999200159968006,7.7,38.1,50.0,,,
+C.smooth_R2_degree3,45.5,"% of between-slot variance; permutation null mean 13.0%, p = 0.0002; bootstrap 95% CI [39.3, 50.8]",0.0001999600079984003,13.0,39.3,50.8,,,
+D.errors_to_adjacent_slot_none,15.3,% of errors; uniform expectation 10.0%; within +-2 slots 26.4% (uniform 19.5%),,,,,10.0,26.4,19.5
+D.errors_to_adjacent_slot_run60,20.3,% of errors; uniform expectation 10.0%; within +-2 slots 33.2% (uniform 19.5%),,,,,10.0,33.2,19.5
+D.errors_to_adjacent_slot_oracle,28.0,% of errors; uniform expectation 10.0%; within +-2 slots 40.0% (uniform 19.5%),,,,,10.0,40.0,19.5

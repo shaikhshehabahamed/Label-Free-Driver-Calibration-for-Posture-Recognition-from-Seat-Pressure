@@ -1,0 +1,22 @@
+u,p,rule,action,evidence
+6,12,R1,"end 6909 -> 6015: marker at 6033-6042 precedes P13, label end = marker start - 18","fully contains P13,14, a consistent chain; duration 1390 fr vs median 363"
+6,13,R1,kept unchanged (it was lost to the overlap exclusion in the first cleaning),
+6,14,R1,kept unchanged (it was lost to the overlap exclusion in the first cleaning),
+24,20,R1,"start 7385 -> 7856: marker at 7827-7836 follows P19, label start = marker end + 20","fully contains P18,19, a consistent chain; duration 582 fr vs median 176"
+24,18,R1,kept unchanged (it was lost to the overlap exclusion in the first cleaning),
+24,19,R1,kept unchanged (it was lost to the overlap exclusion in the first cleaning),
+28,11,R1,"end 5950 -> 5088: marker at 5106-5116 precedes P12, label end = marker start - 18","fully contains P12,13, a consistent chain; duration 1151 fr vs median 336"
+28,12,R1,kept unchanged (it was lost to the overlap exclusion in the first cleaning),
+28,13,R1,kept unchanged (it was lost to the overlap exclusion in the first cleaning),
+2,1,R2,overlap with P2 of 18 fr: overlapped frames dropped from both,0 marker events inside the union: cannot attribute the boundary (the marker before the second posture was not pressed)
+4,5,R2,"overlap with P6 (173 fr) resolved: P5 ends at 1799, P6 starts at 1856",exactly one marker inside the union (1817-1836)
+22,12,R2,overlap with P13 of 248 fr: overlapped frames dropped from both,0 marker events inside the union: cannot attribute the boundary (the marker before the second posture was not pressed)
+3,19,R3,labels kept: this driver performed P19 before P18,template test rejects the protocol order (delta=-0.929; p=0.007 among 410 clean pairs); one marker precedes each of the two postures
+3,5,R5,posture has no label and no marker: never performed (19 markers for 19 postures),1 marker event(s) between P4 and P6; a performed posture is preceded by its own marker
+8,0,M3,"all 20 ranges rebuilt from the 20 marker events (H1: first posture before the first press, event j precedes posture j+1, last event = end-of-session press)",published starts are 1540 to 2408 frames later than the markers imply (not constant) although all 20 markers lie inside the recording (last frame 8946)
+8,0,M3,"validation: mean template cosine 0.590 for the chosen structure vs 0.343 for the other, 0.018 for random assignments (p = 0.0002); clean drivers 0.614",
+2,2,R6,end 1110 -> 1083: the range ran into the next marker press (1101),
+3,18,R6,end 6330 -> 6316: the range ran into the next marker press (6334),
+3,19,R6,end 6169 -> 6144: the range ran into the next marker press (6162),
+4,6,R6,end 2143 -> 2122: the range ran into the next marker press (2140),
+6,14,R6,end 6874 -> 6849: the range ran into the next marker press (6867),
